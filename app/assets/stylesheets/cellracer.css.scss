@@ -1,0 +1,73 @@
+$electric-indigo: #6F00FF;
+$web-indigo: #4B0082;
+$tropical-indigo: #9683EC;
+$backgray: #202030;
+$tri-blue: #00FFFF;
+$tri-orange: #FF9900;
+$tri-magenta: #FF0099;
+
+header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  padding: 0px;
+  background: linear-gradient($electric-indigo, $web-indigo);
+  z-index: 5;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+  color: $tri-orange;
+}
+
+h2 {
+  color: $tri-magenta;
+}
+
+article {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  background-image: image-url('james-hon-guangzhou');
+  background-size: cover;
+  overflow-y: auto;
+}
+
+section {
+  margin: 15px;
+  opacity: 0.7;
+  background-color: $backgray;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: linear-gradient($electric-indigo, $web-indigo);
+}
+
+footer p {
+  margin: 0px;
+  text-align: right;
+}
+
+body {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  color: $tri-blue;
+  background-color: $tropical-indigo;
+}
